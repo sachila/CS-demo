@@ -25,8 +25,9 @@ Angular material is used to develop the UI components.
 
 ## Development server
 
-Run `npm install` command to install the node module.
-Then navigate to `src` directory and run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Navigate to `src` directory and Run `npm install` command to install the node modules.
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
