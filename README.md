@@ -11,7 +11,9 @@ Routing module is also set up. (at the moment only one route)
 we have a couple of services to load and store the data in the client.
 
 `remote.service` - Generic service to send POST, GET requests.
-`vehicle-load service` - call remote service to load the data from a specific API
+
+`vehicle-load service` - call remote service to load the data from a specific API.
+
 `vehicle-cache-service` - Store the data we get from load service (components access data from this service).
 
 Whenever data get loaded/changed, cache service fire an event. So the  components which are listening to these events jar
