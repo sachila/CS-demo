@@ -1,0 +1,16 @@
+.close-btn {
+  position: relative;
+  bottom: 10px;
+}
+
+.space {
+  width: 60%;
+}
+
+img {
+  width: 100%;
+}
+
+::ng-deep .mat-card-header-text {
+  width: 86%;
+}

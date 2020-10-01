@@ -1,0 +1,15 @@
+.mat-form-field--inline .mat-form-field:nth-child(1) {
+  margin-right: 10px;
+}
+
+.input-class {
+  display: flex;
+}
+
+button {
+  margin-right: 10px;
+}
+
+mat-form-field {
+  width: -webkit-fill-available;
+}

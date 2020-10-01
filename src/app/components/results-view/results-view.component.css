@@ -1,0 +1,5 @@
+.result-view {
+  height: inherit;
+  max-height: 12rem;
+  overflow: auto;
+}

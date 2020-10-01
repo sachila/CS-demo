@@ -1,0 +1,15 @@
+<h2>Filter</h2>
+<div class="input-class">
+  <mat-form-field style="margin-right: 5px;">
+    <mat-label>By Name</mat-label>
+    <input matInput type="text" [(ngModel)]="filterNameModel">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>By Tags</mat-label>
+    <input matInput type="text" [(ngModel)]="filterTagModel">
+  </mat-form-field>
+</div>
+<div>
+  <button mat-raised-button (click)="reset()">Reset</button>
+  <button mat-raised-button color="primary" (click)="filterData()">Filter</button>
+</div>

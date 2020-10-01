@@ -1,0 +1,25 @@
+.main {
+  display: inline-grid;
+  grid-template-columns: 1fr 2fr;
+  width: -webkit-fill-available;
+  height: 36rem;
+}
+
+app-spinner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  opacity: .5;
+}
+
+app-left-panel {
+  padding: 1rem;
+  height: inherit;
+}
+
+app-right-panel {
+  padding: 1rem;
+  overflow: hidden;
+  height: inherit;
+}

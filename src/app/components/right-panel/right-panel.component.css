@@ -1,0 +1,5 @@
+.right-panel {
+  height: inherit;
+  width: 95%;
+  overflow: auto;
+}

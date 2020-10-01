@@ -1,0 +1,10 @@
+<div style="height: inherit;">
+  <h2>Results</h2>
+  <div class="result-view">
+    <mat-selection-list #imageList [multiple]="false" (selectionChange)="selectionChange($event)">
+      <mat-list-option *ngFor="let vehicle of vehicles" [value]="vehicle.id" [selected]="vehicle.selected">
+        {{vehicle.name}}
+      </mat-list-option>
+    </mat-selection-list>
+  </div>
+</div>

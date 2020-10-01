@@ -1,0 +1,39 @@
+{
+  "data": {
+    "124123213": {
+      "id": "124123213",
+      "name": "audi 2010",
+      "url": "assets/images/audi.png",
+      "tags": ["audi", "2010"],
+      "category": "Cars"
+    },
+    "124123214": {
+      "id": "124123214",
+      "name": "tesla model 3",
+      "url": "assets/images/tesla model-3.jpg",
+      "tags": ["tesla", "model 3", "2010"],
+      "category": "Cars"
+    },
+    "124123216": {
+      "id": "124123216",
+      "name": "Transpo G70",
+      "url": "assets/images/Transpo_G70.jpg",
+      "tags": ["Transpo", "G70", "2018"],
+      "category": "Cars"
+    },
+    "124123217": {
+      "id": "124123217",
+      "name": "Toyota Hiace 2004",
+      "url": "assets/images/toyota_hiace_2004.jpg",
+      "tags": ["Toyota", "Hiace", "2004"],
+      "category": "Vans"
+    },
+    "124123218": {
+      "id": "124123218",
+      "name": "Ford Cargo 2017",
+      "url": "assets/images/ford-e-150-cargo-2007.jpg",
+      "tags": ["ford", "cargo 150", "2007"],
+      "category": "Vans"
+    }
+  }
+}

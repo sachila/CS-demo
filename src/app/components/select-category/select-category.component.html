@@ -1,0 +1,11 @@
+<div>
+  <h2>Select Category</h2>
+  <mat-form-field appearance="fill">
+    <mat-label>Vehicles</mat-label>
+    <mat-select [(ngModel)]="selectedCategory" name="category" (ngModelChange)="categoryChanged()">
+      <mat-option *ngFor="let category of categories" [value]="category">
+        {{category}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
