@@ -8,6 +8,8 @@ We load all the data at once and then filter them based on the category to reduc
 List of categories are stored in the `Category` enum file.
 Routing module is also set up. (at the moment only one route)
 
+Angular material is used to develop the UI components.
+
 we have a couple of services to load and store the data in the client.
 
 `remote.service` - Generic service to send POST, GET requests.
@@ -21,7 +23,21 @@ update the logic based on the updates.
 
 `global-service` - Generic service to persist the global values throughout the application. It also can fire an event when the values get changes so that components can update the UI.
 
-Angular material is used to develop the UI components.
+
+## Architecture
+
+The architecture pattern used to develop this application is an Observable pattern.
+
+We have one service to load and manipulate data (cache service), and when it happens, events will fire to notify
+other components.
+
+on the app load, the flow is as follows,
+
+component -> load-service (api call) -> cache serice (data changed event) -> components (listening to cache service event).
+
+
+Once the data is loaded, components can directly call the cache service to perform different actions as well.
+
 
 ## Development server
 
